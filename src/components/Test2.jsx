@@ -1,10 +1,10 @@
 import { useState } from "react";
-import useText1 from "../hooks/useText1";
+import useText2 from "../hooks/useText2";
 
 const Test2 = () => {
   const [text, setText] = useState("");
 
-  const name = useText1(text);
+  const name = useText2(text);
 
   console.log("Test::Render from Test Component");
   return (
